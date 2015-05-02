@@ -14,7 +14,6 @@
   <name>${project.artifactId}</name>
   <description>This project provides an API and implementation for a transaction-manager (e.g. based on JTA).</description>
   <properties>
-    <org.springframework.version>4.0.5.RELEASE</org.springframework.version>
     <net.sf.mmm.util.version>7.0.0-SNAPSHOT</net.sf.mmm.util.version>
     <net.sf.mmm.transaction.version>1.0.1-SNAPSHOT</net.sf.mmm.transaction.version>
   </properties>
