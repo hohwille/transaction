@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.sf.m-m-m</groupId>
+  <artifactId>mmm-transaction-impl-jta</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>mmm-transaction-impl-jta</name>
+  <description>This project implements the transaction-api using JTA (Java Transaction API).</description>
+  <url>http://m-m-m.sourceforge.net/mmm-transaction/mmm-transaction-impl-jta/</url>
+  <licenses>
+    <license>
+      <name>Apache Software Licenese</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repro</distribution>
+      <comments></comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>hohwille</id>
+      <name>Jörg Hohwiller</name>
+      <email>hohwille@users.sourceforge.net</email>
+      <url>http://www.j-hohwiller.de/joerg</url>
+      <organization></organization>
+      <organizationUrl></organizationUrl>
+      <roles>
+        <role>admin</role>
+        <role>designer</role>
+        <role>developer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:m-m-m/mmm.git/mmm-transaction/mmm-transaction-impl-jta</connection>
+    <developerConnection>scm:git:git@github.com:m-m-m/mmm.git/mmm-transaction/mmm-transaction-impl-jta</developerConnection>
+    <tag></tag>
+    <url>https://github.com/m-m-m/mmm/tree/master/mmm-transaction/mmm-transaction-impl-jta</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.sf.m-m-m</groupId>
+      <artifactId>mmm-transaction-api</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.transaction</groupId>
+      <artifactId>jta</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>Central Repository</name>
+      <url>http://repo.maven.apache.org/maven2</url>
+    </repository>
+  </repositories>
+</project>
