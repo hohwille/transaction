@@ -5,7 +5,7 @@
   <parent>
     <groupId>net.sf.m-m-m</groupId>
     <artifactId>mmm-transaction-modules</artifactId>
-    <version>dev</version>
+    <version>dev-SNAPSHOT</version>
     <relativePath>../mmm-transaction-modules/pom.xml</relativePath>
   </parent>
   <artifactId>mmm-transaction-api</artifactId>

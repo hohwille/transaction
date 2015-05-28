@@ -9,7 +9,7 @@
     <relativePath>../mmm-parent/pom.xml</relativePath>
   </parent>
   <artifactId>mmm-transaction</artifactId>
-  <version>dev</version>
+  <version>dev-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>${project.artifactId}</name>
   <description>This project provides an API and implementation for a transaction-manager (e.g. based on JTA).</description>
