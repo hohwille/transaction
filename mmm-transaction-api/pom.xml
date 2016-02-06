@@ -13,11 +13,11 @@
   <packaging>jar</packaging>
   <name>${project.artifactId}</name>
   <description>This project provides the API of the transaction-manager.</description>
-  
+
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>mmm-util-core</artifactId>
+      <artifactId>mmm-util-event</artifactId>
     </dependency>
   </dependencies>
 </project>
