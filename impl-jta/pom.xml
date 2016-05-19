@@ -6,24 +6,24 @@
     <groupId>net.sf.m-m-m</groupId>
     <artifactId>mmm-transaction-modules</artifactId>
     <version>dev-SNAPSHOT</version>
-    <relativePath>../mmm-transaction-modules/pom.xml</relativePath>
+    <relativePath>../modules/pom.xml</relativePath>
   </parent>
-  <artifactId>mmm-transaction-impl-jpa</artifactId>
+  <artifactId>mmm-transaction-impl-jta</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>${project.artifactId}</name>
-  <description>This project implements the transaction-api using JPA (Java Persistence API).</description>
-
+  <description>This project implements the transaction-api using JTA (Java Transaction API).</description>
+  
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>mmm-transaction-api</artifactId>
     </dependency>
-
+    
     <dependency>
-      <groupId>org.hibernate.javax.persistence</groupId>
-      <artifactId>hibernate-jpa-2.0-api</artifactId>
-      <version>1.0.1.Final</version>
+      <groupId>javax.transaction</groupId>
+      <artifactId>jta</artifactId>
+      <version>1.1</version>
     </dependency>
 
   </dependencies>

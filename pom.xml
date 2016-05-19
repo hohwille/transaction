@@ -14,13 +14,13 @@
   <name>${project.artifactId}</name>
   <description>This project provides an API and implementation for a transaction-manager (e.g. based on JTA).</description>
   <properties>
-    <net.sf.mmm.util.version>7.1.0-SNAPSHOT</net.sf.mmm.util.version>
+    <net.sf.mmm.util.version>7.2.0-SNAPSHOT</net.sf.mmm.util.version>
     <net.sf.mmm.transaction.version>1.0.1-SNAPSHOT</net.sf.mmm.transaction.version>
   </properties>
 
   <modules>
-    <module>mmm-transaction-bom</module>
-    <module>mmm-transaction-modules</module>
+    <module>bom</module>
+    <module>modules</module>
   </modules>
 
   <issueManagement>

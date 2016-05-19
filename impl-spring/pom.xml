@@ -6,7 +6,7 @@
     <groupId>net.sf.m-m-m</groupId>
     <artifactId>mmm-transaction-modules</artifactId>
     <version>dev-SNAPSHOT</version>
-    <relativePath>../mmm-transaction-modules/pom.xml</relativePath>
+    <relativePath>../modules/pom.xml</relativePath>
   </parent>
   <artifactId>mmm-transaction-impl-spring</artifactId>
   <version>${net.sf.mmm.transaction.version}</version>

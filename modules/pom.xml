@@ -13,10 +13,10 @@
   <description>The actual modules of mmm-transaction.</description>
 
   <modules>
-    <module>../mmm-transaction-api</module>
-    <module>../mmm-transaction-impl-spring</module>
-    <module>../mmm-transaction-impl-jpa</module>
-    <module>../mmm-transaction-impl-jta</module>
+    <module>../api</module>
+    <module>../impl-spring</module>
+    <module>../impl-jpa</module>
+    <module>../impl-jta</module>
   </modules>
 
   <dependencyManagement>

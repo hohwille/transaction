@@ -6,25 +6,18 @@
     <groupId>net.sf.m-m-m</groupId>
     <artifactId>mmm-transaction-modules</artifactId>
     <version>dev-SNAPSHOT</version>
-    <relativePath>../mmm-transaction-modules/pom.xml</relativePath>
+    <relativePath>../modules/pom.xml</relativePath>
   </parent>
-  <artifactId>mmm-transaction-impl-jta</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <artifactId>mmm-transaction-api</artifactId>
+  <version>${net.sf.mmm.transaction.version}</version>
   <packaging>jar</packaging>
   <name>${project.artifactId}</name>
-  <description>This project implements the transaction-api using JTA (Java Transaction API).</description>
-  
+  <description>This project provides the API of the transaction-manager.</description>
+
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>mmm-transaction-api</artifactId>
+      <artifactId>mmm-util-event</artifactId>
     </dependency>
-    
-    <dependency>
-      <groupId>javax.transaction</groupId>
-      <artifactId>jta</artifactId>
-      <version>1.1</version>
-    </dependency>
-
   </dependencies>
 </project>
